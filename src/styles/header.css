@@ -1,0 +1,44 @@
+.header *{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    padding: 8px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #81aebb;
+ 
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.header button{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: white;
+    border: 1px solid white;
+    color: #81aebb;
+    border-radius: 5px;
+}
+
+.header button:hover{
+    background-color: #ecf0f0;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem
+}
+
+
+/* *{
+    border: 1px solid red;
+} */

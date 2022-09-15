@@ -1,0 +1,18 @@
+html, body{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5e5e5e;
+    font-family: "Montserrat",sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 36px;
+    padding: 24px;
+}
