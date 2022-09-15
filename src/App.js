@@ -69,6 +69,10 @@ class App extends Component{
     this.generatePDF = this.generatePDF.bind(this);
   }
 
+  componentDidMount(){
+    document.title = "Resume Builder"
+  }
+
   resetState = () => {
     this.setState({personalDetails:{
       name: '',
